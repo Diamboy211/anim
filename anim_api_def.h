@@ -1,0 +1,10 @@
+// impl name, struct name, ret, args
+X(anim_image, image, AnimImage, (struct AnimAPI *, const char *))
+X(anim_render_all, render_all, void, (struct AnimAPI *, BoneNode *))
+X(anim_render_one, render_one, void, (struct AnimAPI *, BoneNode *))
+X(anim_set_clamp_bounds, set_clamp_bounds, void, (struct AnimAPI *, AnimImage, float, float, float, float))
+X(anim_set_no_clamp, set_no_clamp, void, (struct AnimAPI *, AnimImage))
+X(anim_image_set_uv_mode, image_set_uv_mode, void, (struct AnimAPI *, AnimImage, enum UVModeAxis, enum UVModeAxis))
+X(anim_target_set_uv_mode, target_set_uv_mode, void, (struct AnimAPI *, enum UVModeAxis, enum UVModeAxis))
+X(anim_shader_fill, shader_fill, void, (struct AnimAPI *, void (*)(float *, const float *, float, void *), void *))
+X(anim_rgba_fill, rgba_fill, void, (struct AnimAPI *, const float *))

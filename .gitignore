@@ -1,0 +1,7 @@
+assets/
+*.d
+*.o
+*.exe
+*.dll
+*.mp4
+*.swp
